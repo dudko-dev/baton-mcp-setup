@@ -1,0 +1,23 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "dev.dudko/baton",
+  "title": "Baton",
+  "description": "Local MCP server for Baton: edit git-native API requests, collections, environments and scripts.",
+  "version": "0.1.2",
+  "websiteUrl": "https://baton.dudko.dev",
+  "repository": {
+    "url": "https://github.com/dudko-dev/baton-mcp-setup",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "@dudko.dev/baton-mcp",
+      "version": "0.1.2",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}

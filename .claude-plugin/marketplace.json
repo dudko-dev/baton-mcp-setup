@@ -1,0 +1,25 @@
+{
+  "name": "baton",
+  "description": "Official Baton plugin for Claude Code — let Claude read and edit your git-native API collections.",
+  "owner": {
+    "name": "dudko.dev",
+    "email": "siarhei@dudko.dev"
+  },
+  "plugins": [
+    {
+      "name": "baton",
+      "source": "./",
+      "description": "Connect Claude to a Baton workspace: read, write and organize API requests, collections, environments and scripts as plain YAML in your git repository — and, if you allow it, run them.",
+      "category": "development",
+      "tags": [
+        "api-client",
+        "http",
+        "rest",
+        "graphql",
+        "postman-alternative",
+        "git",
+        "yaml"
+      ]
+    }
+  ]
+}
