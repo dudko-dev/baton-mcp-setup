@@ -127,10 +127,12 @@ assistant execute requests, add the server by hand instead (below) with
 
 ## Troubleshooting
 
-- **"not a Baton workspace"** — start the server in the workspace folder or pass
-  `--workspace`.
+- **"not a Baton workspace" / the client says "Connection closed"** — the server
+  exits at start when the folder has no `baton.yaml`. Open Claude Code in your
+  workspace, or add the server by hand with `--workspace /path/to/workspace`.
 - **`run_request` refuses** — add `--allow-run`.
-- **`npx` picks an old Node** — the server needs Node.js 24+.
+- **`npm warn EBADENGINE … required: { node: '>=24' }`, then nothing** — the
+  server needs Node.js 24+; `node --version` in the shell your client starts.
 
 ## Support
 
