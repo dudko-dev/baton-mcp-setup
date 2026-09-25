@@ -1,0 +1,31 @@
+{
+  "name": "baton",
+  "description": "Connect Claude to a Baton workspace: read, write and organize API requests, collections, environments and scripts as plain YAML in your git repository — and, if you allow it, run them.",
+  "version": "1.0.0",
+  "author": {
+    "name": "dudko.dev",
+    "email": "siarhei@dudko.dev"
+  },
+  "homepage": "https://baton.dudko.dev",
+  "repository": "https://github.com/dudko-dev/baton-mcp-setup",
+  "keywords": [
+    "baton",
+    "mcp",
+    "api-client",
+    "http",
+    "rest",
+    "graphql",
+    "postman-alternative",
+    "git",
+    "yaml"
+  ],
+  "mcpServers": {
+    "baton": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@dudko.dev/baton-mcp"
+      ]
+    }
+  }
+}
